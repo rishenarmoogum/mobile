@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "CarsRus",
+    "slug": "carsrus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "mu.carsrus.marketplace",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "mu.carsrus.marketplace",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo_icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b380e7f-285a-4f14-b10c-3d3a950d39ce"
+      }
+    }
+  }
+}
